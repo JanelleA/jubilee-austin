@@ -2,6 +2,7 @@
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
+  color: #2b2b2b;
 }
 
 #about, #work, #contact {
@@ -80,12 +81,14 @@ header h2 span {
 #about h2 {
   font-family: 'Lora', serif;
   font-size: 36px;
+  padding-left: 50px;
 }
 
 #about p {
   font-size: 21px;
   color: #7f7f7f;
-  line-height: 42px;
+  line-height: 40px;
+  padding-left: 50px;
   padding-right: 50px;
 }
 
@@ -107,6 +110,7 @@ header h2 span {
 
 #work h3 {
   font-size: 24px;
+  line-height: 32px;
   width: 190px;
   margin: 0 auto;
 }
@@ -115,8 +119,7 @@ header h2 span {
   font-family: 'Lora', serif;
   font-size: 18px;
   line-height: 30px;
-  color: #2b2b2b;
-  padding: 0 35px;
+  padding: 0 50px;
 }
 
 /***** CONTACT *****/
@@ -129,38 +132,43 @@ header h2 span {
   padding: 110px 0;
 }
 
-#contact-img {
+#contact img#contact-img {
+  margin-left: 25px;
   border: 12px solid #ffffff;
 }
 
-#contact h2, #email-header, #socialmedia-header, #contact ul {
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
   padding-left: 115px;
 }
- #envelope {
+
+ #contact #envelope {
    padding: 0 10px 0 115px;
  }
 
 #contact h2 {
   font-family: 'Lora', serif;
   font-size: 36px;
+  line-height: 44px;
 }
 
-#email-header {
-  font-size: 32px:
+#contact #email-header {
+  font-size: 32px;
   font-weight: 400;
+  line-height: 44px;
   margin: -30px 0 5px 0;
 }
 
-#socialmedia-header {
+#contact #socialmedia-header {
   font-weight: bold;
   font-size: 29px;
-  margin: 40px 0 0px 0;
+  line-height: 44px;
+  margin: 40px 0 0 0;
 }
 
 #contact a {
   text-decoration: none;
   color: #c49075;
-  font-weight:bold;
+  font-weight: bold;
   font-size: 28px;
 }
 
